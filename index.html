@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="raspberryApp">
+<head>
+  <meta charset="UTF-8">
+  <title>RASPERRY TV</title>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.js"></script>
+  <script src="app/raspberry.js"></script>
+  <script src="app/controllers/tv.js"></script>
+  <script src="https://cdn.socket.io/socket.io-1.3.4.js"></script>
+</head>
+<body ng-controller="tvCtrl">
+  
+  <div class="content" ui-view></div>
+
+</body>
+</html>

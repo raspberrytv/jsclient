@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  position:absolute;
+  height: 100%;
+  width: 100%;
+
+  transition: all 1s linear;
+}
+.content.home {
+  background-color: #cddc39;
+  color: black;
+}
+.content.youtube {
+  background-color: red;
+  color: white;
+}
+.content h1 {
+  position: absolute;
+  width: 100%;
+
+  font-family: 'Century Gothic';
+
+  top: 50%;
+  line-height: 30px;
+  margin-top: -30px;
+  text-align: center;
+
+  font-weight: 400;
+  font-size: 5em;
+  letter-spacing: -1px;
+}
