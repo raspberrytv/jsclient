@@ -1,0 +1,16 @@
+{
+  "name": "html-client",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raspberrytv/jsclient.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raspberrytv/jsclient/issues"
+  },
+  "homepage": "https://github.com/raspberrytv/jsclient",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}
